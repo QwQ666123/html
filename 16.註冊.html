@@ -1,0 +1,43 @@
+<html>
+   <head>
+    <title>註冊</title>
+    </head>
+    <body>
+      <form method="POST" action="regist.php">
+
+        姓名:  <input type="text" name="id"><br>
+        密碼: <input type="password" name="pwd"><br>
+
+        性別: <input type="radio" name="sex" value="m">男
+              <input type="radio" name="sex" value="f"checked>女
+              <input type="radio" name="sex" value="s">多元
+
+              <p></p>
+
+        興趣: <input type="checkbox" name="interest" value="play computer"checked>打電動
+              <input type="checkbox" name="interest" value="sleep"> 睡覺
+              <input type="checkbox" name="interest" value="shopping"checked> 購物<br>
+        
+        居住地: <select name="=county">
+                <option value="ttttt">台北</option>
+                <option value="hhhhhh ">  新竹</option>
+                <option value="mmm">苗栗國</option>
+                <option value="others">其他</option>
+             </select><br> <!--是下拉式選單，通常用在表單-->
+
+        自傳:  <br><textarea name="autobiography" rows="10" cols="40">
+輸入自傳~~~@%^%$^^
+             </textarea>
+
+
+       <p></p>
+
+       <input type="submit" value="註冊">
+       <input type="reset" value="清除">
+
+
+
+      </form>
+    </body>
+
+    </html>
